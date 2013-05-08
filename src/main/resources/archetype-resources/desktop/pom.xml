@@ -13,7 +13,7 @@
 	<name>${JavaGameClassName} desktop</name>
 
 	<properties>
-		<mainClass>${package}.java.${JavaGameClassName}Desktop</mainClass>
+		<mainClass>${package}.desktop.${JavaGameClassName}Desktop</mainClass>
 	</properties>
 
 	<build>
