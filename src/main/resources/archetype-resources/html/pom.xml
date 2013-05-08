@@ -27,6 +27,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.vyorkin</groupId>
+			<artifactId>engine</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
 			<groupId>com.badlogic.gdx</groupId>
 			<artifactId>gdx-backend-gwt</artifactId>
 			<version>${gdx.version}</version>
@@ -45,7 +51,13 @@
 			<version>${gdx.version}</version>
 			<classifier>sources</classifier>
 		</dependency>
-
+		
+	    <dependency>
+			<groupId>aurelienribon.tweenengine</groupId>
+			<artifactId>tween-engine-api</artifactId>
+			<version>6.3.3</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>

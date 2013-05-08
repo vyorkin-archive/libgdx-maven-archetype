@@ -21,6 +21,18 @@
     </dependency>
 
     <dependency>
+		<groupId>com.vyorkin</groupId>
+		<artifactId>engine</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+    <dependency>
+		<groupId>aurelienribon.tweenengine</groupId>
+		<artifactId>tween-engine-api</artifactId>
+		<version>6.3.3</version>
+	</dependency>
+	
+    <dependency>
       <groupId>com.googlecode.playn</groupId>
       <artifactId>playn-ios</artifactId>
       <version>${playn.version}</version>
