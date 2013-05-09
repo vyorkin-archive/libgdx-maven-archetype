@@ -1,4 +1,4 @@
 package ${package}.core.resources;
 
-public class GameEffects {
+public class GameEffect {
 }
