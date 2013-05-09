@@ -16,7 +16,7 @@
 	    <dependency>
 			<groupId>com.vyorkin</groupId>
 			<artifactId>engine</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${engine.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.badlogic.gdx</groupId>

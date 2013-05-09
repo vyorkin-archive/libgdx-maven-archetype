@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>com.vyorkin</groupId>
 			<artifactId>engine</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${engine.version}</version>
 		</dependency>	
 		
 		<dependency>
@@ -71,6 +71,12 @@
 		<dependency>
 			<groupId>com.badlogic.gdx</groupId>
 			<artifactId>gdx-backend-lwjgl</artifactId>
+			<version>${gdx.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.badlogic.gdx</groupId>
+			<artifactId>gdx-tools</artifactId>
 			<version>${gdx.version}</version>
 		</dependency>
 		

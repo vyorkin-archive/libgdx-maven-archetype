@@ -23,7 +23,7 @@
 		</repository>
 		<repository>
 			<id>vyorkin-snapshots</id>
-			<url>http://localhost:8081/nexus/content/repositories/vyorkin-snapshots/</url>
+			<url>http://localhost:8081/nexus/content/repositories/vyorkin-snapshots</url>
 		</repository>
 	</repositories>
 
