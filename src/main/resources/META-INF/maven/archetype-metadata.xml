@@ -6,7 +6,7 @@
     <requiredProperty key="JavaGameClassName"/>
   </requiredProperties>
   <fileSets>
-    <!-- java module -->
+    <!-- desktop module -->
     <fileSet filtered="true" encoding="UTF-8">
       <directory>desktop</directory>
       <includes>
@@ -21,6 +21,12 @@
     </fileSet>
     <fileSet filtered="false" packaged="false" encoding="UTF-8">
       <directory>desktop/assets</directory>
+      <includes>
+        <include>**/*</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+      <directory>desktop/data</directory>
       <includes>
         <include>**/*</include>
       </includes>
