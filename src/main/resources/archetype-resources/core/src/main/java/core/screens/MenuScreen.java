@@ -50,9 +50,11 @@ public class MenuScreen extends UIScreen {
         table.add(E.settings.title).spaceBottom(50);
         table.row();
         
-        addButton("Новая игра", new LevelScreen(1));
+        // TODO: Blahblah here...
         
-        TextButton button = new TextButton("Выход", skin);
+        // addButton("New Game", new LevelScreen());
+        
+        TextButton button = new TextButton("Exit", skin);
         button.addListener(new TouchUpListener() {
         	public void touchUp(InputEvent event, 
     			float x, float y, int pointer, int button) {
