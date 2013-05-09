@@ -10,7 +10,7 @@ import com.vyorkin.engine.screens.GameScreen;
 import com.vyorkin.engine.screens.UIScreen;
 import com.vyorkin.engine.utils.TouchUpListener;
 
-import ${package}.core.resources.;
+import ${package}.core.resources.*;
 
 public class MenuScreen extends UIScreen {
 	public MenuScreen() {

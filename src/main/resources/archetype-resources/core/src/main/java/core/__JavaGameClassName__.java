@@ -8,18 +8,16 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
-import com.vyorkin.game.BitmapFont;
-import com.vyorkin.game.GameRunner;
-import com.vyorkin.game.GameScreen;
-import com.vyorkin.game.GameSettings;
-import com.vyorkin.game.LoadingScreen;
-import com.vyorkin.game.Skin;
-import com.vyorkin.game.Sound;
-import com.vyorkin.game.resources.GameFont;
-import com.vyorkin.game.resources.GameSkin;
-import com.vyorkin.game.resources.GameSound;
-import com.vyorkin.game.screens.MenuScreen;
-import com.vyorkin.game.screens.SplashScreen;
+
+import com.vyorkin.engine.E;
+import com.vyorkin.engine.GameRunner;
+import com.vyorkin.engine.GameSettings;
+import com.vyorkin.engine.screens.GameScreen;
+import com.vyorkin.engine.screens.LoadingScreen;
+
+import ${package}.core.resources.*;
+import ${package}.core.screens.MenuScreen;
+import ${package}.core.screens.SplashScreen;
 
 public class ${JavaGameClassName} extends GameRunner {
 	public static final String VERSION = "0.0.0.01 Pre-Alpha";

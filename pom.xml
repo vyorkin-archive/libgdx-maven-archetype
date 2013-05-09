@@ -8,7 +8,15 @@
 
   <name>Libgdx Project Archetype</name>
   <description>Archetype for libgdx projects.</description>
-
+  
+	<distributionManagement>
+		<snapshotRepository>
+			<id>vyorkin-snapshots</id>
+			<name>vyorkin snapshots</name>
+			<url>http://localhost:8081/nexus/content/repositories/vyorkin-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
   <build>
     <extensions>
       <extension>

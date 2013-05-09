@@ -21,6 +21,10 @@
 			<id>gdx-nightlies</id>
 			<url>http://libgdx.badlogicgames.com/nightlies/maven</url>
 		</repository>
+		<repository>
+			<id>vyorkin-snapshots</id>
+			<url>http://localhost:8081/nexus/content/repositories/vyorkin-snapshots/</url>
+		</repository>
 	</repositories>
 
 	<build>
